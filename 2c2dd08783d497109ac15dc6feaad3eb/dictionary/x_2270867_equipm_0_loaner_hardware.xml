@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="a8f019c7835c97109ac15dc6feaad3b0" label="Loaner Hardware" max_length="40" name="x_2270867_equipm_0_loaner_hardware" type="collection">
+        <element choice="1" label="Asset Type" max_length="40" name="asset_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Wired Mouse" sequence="2" value="wired_mouse"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Ear phones" sequence="3" value="ear_phones"/>
+                <element inactive_on_update="false" label="Charger" sequence="1" value="charger"/>
+            </choice>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In maintenance" sequence="2" value="in_maintenance"/>
+                <element inactive_on_update="false" label="retired" sequence="3" value="retired"/>
+                <element inactive_on_update="false" label="checked out" sequence="1" value="checked_out"/>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+            </choice>
+        </element>
+        <element label="Model" max_length="100" name="model" type="string"/>
+        <element label="Asset Tag" max_length="40" name="asset_tag" type="string"/>
+    </element>
+</database>

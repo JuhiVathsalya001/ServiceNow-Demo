@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="ce90d987835c97109ac15dc6feaad314" extends="task" label="Loaner Request" max_length="40" name="x_2270867_equipm_0_loaner_request" type="collection">
+        <element label="Hardware Reserved" max_length="32" name="hardware_reserved" reference="x_2270867_equipm_0_loaner_hardware" type="reference"/>
+        <element label="Return Date" max_length="255" name="return_date" type="due_date"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+    </element>
+</database>
